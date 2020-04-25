@@ -10,13 +10,12 @@ import org.testng.annotations.Test;
 public class LoginTest extends BaseTest {
 
 
-
-
     @Test
     public void login() {
 
         UserSteps steps = new UserSteps(driver);
-        steps.login("tomsmith","SuperSecretPassword!");
-        steps.logout();
+
+        steps.login("tomsmith", "SuperSecretPassword!")
+                .logout();
     }
 }
