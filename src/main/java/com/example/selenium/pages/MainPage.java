@@ -23,9 +23,9 @@ public class MainPage extends com.example.selenium.pages.BasePage {
         return title.getText();
     }
 
-    public LoginPage clickLogout() {
+    public MainPage clickLogout() {
 
         logout.click();
-        return new LoginPage(driver);
+        return this;
     }
 }
