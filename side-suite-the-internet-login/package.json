@@ -1,0 +1,25 @@
+{
+  "name": "the-internet-login",
+  "version": "0.0.0",
+  "jest": {
+    "extraGlobals": [],
+    "modulePaths": [
+      "/usr/local/lib/node_modules/selenium-side-runner/node_modules",
+      "/usr/local/lib/node_modules"
+    ],
+    "setupFilesAfterEnv": [
+      "/usr/local/lib/node_modules/selenium-side-runner/node_modules/jest-environment-selenium/dist/setup.js"
+    ],
+    "testEnvironment": "jest-environment-selenium",
+    "testEnvironmentOptions": {
+      "capabilities": {
+        "browserName": "chrome"
+      },
+      "params": {},
+      "runId": "1317a5fab7c6efd4e28b11c921a359ad",
+      "path": "/usr/local/lib/node_modules/",
+      "timeout": 15000
+    }
+  },
+  "dependencies": {}
+}
