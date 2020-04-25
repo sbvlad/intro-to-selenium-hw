@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
 
-    // TODO define username, password, and login WebElements using @FindBy
 
     //    WebElement corresponding to our username field
     @FindBy(id = "username")
